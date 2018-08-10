@@ -24,11 +24,12 @@ input {
   padding: 12px 20px;
   border: solid 0.5px rgba(0,0,0,0.16);
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
+  font-size: 12pt;
 }
 
 img {
   width: 35%;
-  margin-top: 70px;
+  margin-top: 120px;
   padding-left: 150px;
 }
 
@@ -40,11 +41,6 @@ img {
 
 ul {
   list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  color: black;
 }
 
 .top-nav-left {
@@ -63,4 +59,37 @@ li {
   display: inline;
   margin: auto;
   padding: 10px;
+}
+
+#top-nav-bar a, #bottom-nav-bar a {
+    color: grey;
+    text-decoration: none;
+    padding: 3px;
+    font-size: 10pt;
+}
+
+#top-nav-bar a:hover, #bottom-nav-bar a:hover {
+  color: rgb(117, 117, 117);
+  text-decoration: underline;
+}
+
+.bottom-nav-left {
+  float: left;
+  font-size: 11pt;
+  padding-left: 10px;
+}
+
+.bottom-nav-right {
+  float: right;
+  font-size: 11pt;
+}
+
+#bottom-nav-bar {
+  height: 40px;
+  position: fixed;
+  bottom: 5px;
+  left: 0px;
+  right: 0px;
+  background-color: #f2f2f2;
+  border-top: .1px solid rgb(230, 230, 230);
 }
